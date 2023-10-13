@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Young+Serif&display=swap');
+
+
+body{
+    background-image: url(/img/eladio1.jpg);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: repeat;
+    background-size: 50%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Young Serif', serif;
+    cursor: default;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    align-items: center;
+    height: 80px;
+    padding: 10px;
+    -webkit-box-shadow: -1px 7px 45px -8px rgba(0,0,0,0.84);
+    -moz-box-shadow: -1px 7px 45px -8px rgba(0,0,0,0.84);
+    box-shadow: -1px 7px 45px -8px rgba(0,0,0,0.84);
+}
+.title_principal{
+    display: flex;
+    font-size: 18px;
+}
+
+.logos_principal{
+    display: flex;
+}
+
+a{
+    color: black;
+}
+
+h2 a{
+    padding-right: 50px;
+    
+}
+
+h2 a:hover{
+    color: aqua;
+}
+
+.logos_album{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.logos_album a:hover{
+    color: aqua;
+}
+
+.title_album{
+    font-size: 35px;
+}
+
+.first-album{
+    border-radius: 30px;
+    background-color: aqua;
+    width: 10%;
+    text-align: center;
+    margin-left: 355px;
+}
+
+.image_first-album img{
+    height: 300px;
+    width: 300px;
+    margin-left: 300px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.second-album{
+    border-radius: 30px;
+    background-color: aqua;
+    width: 10%;
+    text-align: center;
+    margin-left: 1405px;
+}
+
+.image_second-album img{
+    height: 300px;
+    width: 300px;
+    margin-left: 1350px;
+    margin-top: 30px;
+    cursor: pointer;
+}
